@@ -9,16 +9,16 @@ Modify 2018 11 07
 
 int Calculation(int A, int B)
 {
-	int temp, cycle, max, i;
+	int temp, cycle, max, idx;
 	if (A > B)
 	{
 		swap(A, B);
 	}
 	max = 0;
-	for (i = A; i <= B; i++)
+	for (idx = A; i <= B; idx++)
 	{
 		cycle = 1;
-		temp = i;
+		temp = idx;
 		while (temp > 1)
 		{
 			if (temp % 2 == 0)
