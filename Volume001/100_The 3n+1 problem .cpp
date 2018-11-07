@@ -4,7 +4,7 @@ Time limit - 3sec
 Language C++ 11 5.3.0
 Modify 2018 11 07
 */
-#include <iostream> 
+#include <stdio.h> 
 #define swap(A,B) { int temp; temp = A,A = B , B = temp; }
 
 int Calculation(int A, int B)
